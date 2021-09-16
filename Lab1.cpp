@@ -25,17 +25,12 @@ int main()
 	long double res_2 = 0;
 	float i = 1;
 
-	while (true)
+	while (var < e)
 	{
 
 
 		float var;
-		var = (pow(x, i) / i);
-
-		if (var < e) {
-
-			break;
-		};
+		var = (pow(x, i) / i);		
 		res_2 = res_2 + var;
 		i += 2;
 
