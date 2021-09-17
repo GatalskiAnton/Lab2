@@ -31,7 +31,7 @@ int main()
 		step = (pow(x, i) / i);
 
 		
-		taelor_res = taylor_res + step;
+		taylor_res = taylor_res + step;
 		i += 2;
 
 
