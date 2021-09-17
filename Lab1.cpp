@@ -39,6 +39,6 @@ int main()
 
 
 	res_2 *= 2;
-	cout << "Используя math.h: " << setprecision(c + 1) << math_h_result << endl;
-	cout << "Использую ряд Тейлора: " << setprecision(c + 1) << taylor_result;
+	cout << "math.h: " << setprecision(c + 1) << math_h_result << endl;
+	cout << "Taylor series: " << setprecision(c + 1) << taylor_result;
 }
